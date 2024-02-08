@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+.first img {
+position:relative;
+height: 200px;
+width:400px;
+}
+.second {
+position: absolute;
+top:200px;
+height: 200px;
+width:400px;
+background-color: black;
+
+}
+.operate {
+display:flex;
+justify-content: flex-start;
+}
+.text {
+   
+    margin-top:20px;
+    color: aliceblue;
+    font-size: medium;
+    margin-bottom: 20px;
+}
+#green {
+    color: green;
+    font-size: medium;
+}
+.operate img {
+    max-height:50px;
+    max-width:50px;
+    color: white;
+    }
