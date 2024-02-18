@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8">
+  <title>Video Card with Like Image</title>
+  <style>
+    /* CSS styles here */
+    .video-card {
+      width: 300px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      overflow: hidden;
+      margin-bottom: 20px;
+    }
+
+
+    .video-container {
+      position: relative;
+    }
+
+
+    .video-container iframe {
+      width: 100%;
+      height: auto;
+    }
+
+
+    .content {
+      padding: 10px;
+      position: relative;
+    }
+
+
+    h2 {
+      margin-top: 0;
+    }
+
+
+    .like-image {
+      width: 30px;
+      height: auto;
+      cursor: pointer;
+      display: block;
+      margin: 0 auto;
+    }
+
+
+    .like-dialog {
+      display: none;
+      position: absolute;
+      top: 15px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: rgba(0, 0, 0, 0.8);
+      color: white;
+      padding: 6px 10px;
+      border-radius: 4px;
+      pointer-events: none;
+    }
+  </style>
+</head>
+
+
+<body>
+  <div class="video-card">
+    <div class="video-container">
+      <!-- Embed your video here -->
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/jCD1JkDp_BQ?si=TW12TuNk8eVRK_9n" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="content">
+      <h2>Bosscoder Academy</h2>
+      <div class="like-dialog">I like this</div>
+      <!-- thumbs-up image -->
+      <img id='white'class="like-image" src="https://w7.pngwing.com/pngs/377/493/png-transparent-social-media-facebook-like-button-facebook-like-button-youtube-social-media-company-rectangle-thumb-signal.png" alt="Thumbs Up">
+    </div>
+  </div>
+ 
+
+  <script>
+    // JavaScript code here
+    const likeImages = document.getElementById('white');
+
+
+   
+     
+let clickCount = 0;
+
+likeImages.addEventListener('click', () => {
+  clickCount++;
+
+  if (clickCount % 2 !== 0) {
+    likeImages.src='https://banner2.cleanpng.com/20180514/lw/kisspng-computer-icons-like-button-blog-clip-art-5af95857b84959.3619021515262905197548.jpg';
+  } else {
+    likeImages.src = 'https://w7.pngwing.com/pngs/377/493/png-transparent-social-media-facebook-like-button-facebook-like-button-youtube-social-media-company-rectangle-thumb-signal.png';
+  }
+
+
+    });
+  </script>
+</body>
+
+
+</html>
