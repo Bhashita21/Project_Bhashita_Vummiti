@@ -1,0 +1,277 @@
+<<<<<<< HEAD
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+ 
+  /* Header and Navigation styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+  }
+ 
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+ 
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+ 
+  nav ul li {
+    margin-left: 30px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: small;
+  }
+ 
+  nav ul li a:hover {
+    background-color: #555;
+  }
+ 
+  /* Logo and Items on the Left */
+  .logo img {
+    max-height: 40px; /* Set maximum height for the logo */
+  }
+ 
+  /* Right-side Elements */
+  .right {
+    display: flex;
+    align-items: center;
+  }
+ 
+  .search-bar {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+ 
+  .search-bar input[type="text"],
+  .search-bar button {
+    padding: 8px;
+    background-color: #060606;
+  }
+ 
+ 
+ 
+  .icons {
+    display: flex;
+    align-items: center;
+  }
+ 
+  .icons img {
+    height: 40px; /* Set the height for the bell icon */
+    margin: 0 10px;
+  }
+ 
+  /* Dropdown */
+  .dropdown {
+    position: relative;
+
+  }
+ 
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    z-index: 1;
+  }
+ 
+  .dropdown-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+ 
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+ 
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+ 
+  .dropbtn {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+  }
+ 
+  .left {
+    display: flex;
+    align-items: center;
+  }
+  body{
+    background-color: black;
+}
+
+
+.grid 
+{
+    display: grid; /* Creates a grid-based layout */
+     
+    grid-template-columns: repeat(10, 1fr);/* Defines columns of different sizes */
+    grid-template-rows: 100px; /* Defines rows of specific heights */
+    grid-gap: 10px; /* Sets the gap between grid items */
+}
+.card
+{background-color:grey; /* Background color for grid items */
+    color:white;
+    padding:20px;
+    align-items: center;
+
+}
+h4{
+ color: aliceblue;
+}
+=======
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+ 
+  /* Header and Navigation styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+  }
+ 
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+ 
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+ 
+  nav ul li {
+    margin-left: 30px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: small;
+  }
+ 
+  nav ul li a:hover {
+    background-color: #555;
+  }
+ 
+  /* Logo and Items on the Left */
+  .logo img {
+    max-height: 40px; /* Set maximum height for the logo */
+  }
+ 
+  /* Right-side Elements */
+  .right {
+    display: flex;
+    align-items: center;
+  }
+ 
+  .search-bar {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+ 
+  .search-bar input[type="text"],
+  .search-bar button {
+    padding: 8px;
+    background-color: #060606;
+  }
+ 
+ 
+ 
+  .icons {
+    display: flex;
+    align-items: center;
+  }
+ 
+  .icons img {
+    height: 40px; /* Set the height for the bell icon */
+    margin: 0 10px;
+  }
+ 
+  /* Dropdown */
+  .dropdown {
+    position: relative;
+
+  }
+ 
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    z-index: 1;
+  }
+ 
+  .dropdown-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+ 
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+ 
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+ 
+  .dropbtn {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+  }
+ 
+  .left {
+    display: flex;
+    align-items: center;
+  }
+  body{
+    background-color: black;
+}
+
+
+.grid 
+{
+    display: grid; /* Creates a grid-based layout */
+     
+    grid-template-columns: repeat(10, 1fr);/* Defines columns of different sizes */
+    grid-template-rows: 100px; /* Defines rows of specific heights */
+    grid-gap: 10px; /* Sets the gap between grid items */
+}
+.card
+{background-color:grey; /* Background color for grid items */
+    color:white;
+    padding:20px;
+    align-items: center;
+
+}
+h4{
+ color: aliceblue;
+}
+>>>>>>> b34b29e41bebb5f63427d1a64582962e3c52d9e0

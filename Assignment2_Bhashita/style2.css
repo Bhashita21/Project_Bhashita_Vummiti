@@ -1,0 +1,49 @@
+<<<<<<< HEAD
+body{
+    background-color: black;
+}
+
+
+.grid 
+{
+    display: grid; /* Creates a grid-based layout */
+     
+    grid-template-columns: repeat(10, 1fr);/* Defines columns of different sizes */
+    grid-template-rows: 100px; /* Defines rows of specific heights */
+    grid-gap: 10px; /* Sets the gap between grid items */
+}
+.card
+{background-color:grey; /* Background color for grid items */
+    color:white;
+    padding:20px;
+    align-items: center;
+
+}
+h4{
+ color: aliceblue;
+}
+=======
+body{
+    background-color: black;
+}
+
+
+.grid 
+{
+    display: grid; /* Creates a grid-based layout */
+     
+    grid-template-columns: repeat(10, 1fr);/* Defines columns of different sizes */
+    grid-template-rows: 100px; /* Defines rows of specific heights */
+    grid-gap: 10px; /* Sets the gap between grid items */
+}
+.card
+{background-color:grey; /* Background color for grid items */
+    color:white;
+    padding:20px;
+    align-items: center;
+
+}
+h4{
+ color: aliceblue;
+}
+>>>>>>> b34b29e41bebb5f63427d1a64582962e3c52d9e0
