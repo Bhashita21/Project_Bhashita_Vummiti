@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Provider } from 'react-redux';
 import './App.css';
 import store from "./components/Store";
@@ -13,6 +14,17 @@ function App() {
       <VideoCard/>
     </div>
     </Provider>
+=======
+import './App.css';
+import VideoCard from './components/videoCard';
+
+function App() {
+  return (
+    <div>
+      <VideoCard/>
+      
+    </div>
+>>>>>>> Project_Bhashita_Vummiti/main
   );
 }
 
